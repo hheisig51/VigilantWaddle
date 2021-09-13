@@ -1,4 +1,4 @@
-# Write your code here :-)
+# Written by Henry Heisig
 import board
 import neopixel
 import time
