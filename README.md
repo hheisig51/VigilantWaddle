@@ -54,17 +54,12 @@ while True:
 | [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.1.21%20-%20Neopixel.py)  |
 | ---- |
 | [Youtube playlist of videos](https://youtube.com/playlist?list=PLWQhE570pqHrpQAAHPEJapQYsuC3Ob_V9)  |
-| [Raw video files](https://github.com/hheisig51/VigilantWaddle/blob/main/Videos) |
 
 https://user-images.githubusercontent.com/71345201/133451297-49025164-4126-4a11-ae27-32b3ffb30b0a.mp4
 
 https://user-images.githubusercontent.com/71345201/133452450-0c0d6621-a748-4929-bc57-153bb9b4892a.mp4
 
 https://user-images.githubusercontent.com/71345201/133452459-4e8d6e7f-8229-4ffa-ac65-582f2c7dd55c.mp4
-
-
-
-
 
 ### Wiring
 Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
