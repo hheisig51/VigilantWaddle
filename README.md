@@ -1,14 +1,6 @@
 # Engineering III Notebook
 
-Hello Circuit Python/Neopixel
-Hi there again! We're back, and we're better than ever. I made a LED on an Arduino (via Python) fade & flash in a rainbow-ish pattern.
 
-| [Code (non-spaghetti)](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.1.21%20-%20Neopixel.py)  |
-|---------------------------|
-| [Video of code and explanation](https://www.youtube.com/watch?v=ur3YObRFBiA) |
-| [Video of LED fading](https://www.youtube.com/watch?v=qmAAbJh5IMo) |
-| [Timelapse of LED fading](https://www.youtube.com/watch?v=fOe3XIUi3Gw) |
-| [Raw video files](https://github.com/hheisig51/VigilantWaddle/blob/main/Videos) |
 
 ## Servo time! (with a ***touch*** of love)
 
@@ -17,27 +9,31 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ## Table of Contents
 * [Table of Contents](#TableOfContents)
-* [Hello CircuitPython](#Hello_CircuitPython)
+* [Hello_CircuitPython](#Hello_CircuitPython)
 * [CircuitPython_Servo](#CircuitPython_Servo)
 * [CircuitPython_LCD](#CircuitPython_LCD)
 * [NextAssignmentGoesHere](#NextAssignment)
 ---
 
-## Hello CircuitPython
+## Hello_CircuitPython
 
 ### Description & Code
-Description goes here
+Hi there again! We're back, and we're better than ever. In this, I've made a LED on an Arduino (via Python) fade & flash in a rainbow-ish pattern. 
 
 Here's how you make code look like code:
 
 ```python
 Code goes here
-
 ```
 
 
 ### Evidence
-Pictures / Gifs of your work should go here.  You need to communicate what your thing does.
+| [Code (non-spaghetti)](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.1.21%20-%20Neopixel.py)  |
+|---------------------------|
+| [Video of code and explanation](https://www.youtube.com/watch?v=ur3YObRFBiA) |
+| [Video of LED fading](https://www.youtube.com/watch?v=qmAAbJh5IMo) |
+| [Timelapse of LED fading](https://www.youtube.com/watch?v=fOe3XIUi3Gw) |
+| [Raw video files](https://github.com/hheisig51/VigilantWaddle/blob/main/Videos) |
 
 ### Wiring
 Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
