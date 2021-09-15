@@ -62,8 +62,8 @@ https://user-images.githubusercontent.com/71345201/133452450-0c0d6621-a748-4929-
 https://user-images.githubusercontent.com/71345201/133452459-4e8d6e7f-8229-4ffa-ac65-582f2c7dd55c.mp4
 
 ### Wiring
-Make an account with your google ID at [tinkercad.com](https://www.tinkercad.com/learn/circuits), and use "TinkerCad Circuits to make a wiring diagram."  It's really easy!  
-Then post an image here.   [here's a quick tutorial for all markdown code, like making links](https://guides.github.com/features/mastering-markdown/)
+
+In this example, no wiring is needed. The neopixel on the Adafruit Arduino Metro was used.
 
 ### Reflection
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
