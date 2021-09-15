@@ -1,9 +1,5 @@
 # Engineering III Notebook
 
-
-
-## Servo time! (with a ***touch*** of love)
-
 # Circuit Python: Heisig's First Adventure in Engineering III
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
@@ -23,7 +19,34 @@ Hi there again! We're back, and we're better than ever. In this, I've made a LED
 Here's how you make code look like code:
 
 ```python
-Code goes here
+# Written by Henry Heisig
+import board
+import neopixel
+import time
+
+x = 50
+y = 50
+z = 50
+dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
+
+dot.brightness = .1
+
+while True:
+    dot.fill((x, y, z))
+    time.sleep(.25)
+    x = x + 1
+    if x >= 255:
+        x = 50
+
+    y = y + 5
+    if y >= 255:
+        y = 50
+
+    z = z + 10
+    if z >= 255:
+        z = 50
+
+    print((x, y, z))
 ```
 
 
@@ -46,7 +69,7 @@ What went wrong / was challenging, how'd you figure it out, and what did you lea
 
 
 ## CircuitPython_Servo
-
+  **Servo time! (with a *touch* of love)**
 ### Description & Code
 
 ```python
