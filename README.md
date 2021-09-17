@@ -16,7 +16,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 ### Description & Code
 Hi there again! We're back, and we're better than ever. In this, I've made a LED on an Arduino (via Python) fade & flash in a rainbow-ish pattern. 
 
-Here's how you make code look like code:
+Once you import the libraries needed, it's time to set up the variables for the separate color channels of the neopixel LED
 
 ```python
 # Written by Henry Heisig
@@ -122,3 +122,10 @@ Code goes here
 ### Wiring
 
 ### Reflection
+
+## Special Thanks
+Thank you to [Mr. Helmstetter](https://github.com/Helmstk1) and [Mr. Dierolf](https://github.com/david-dierolf) at [Charlottesville High School](https://github.com/chssigma/) for being super helpful 
+
+Thank you to Github (do you really need a link?), [Mu](https://codewith.mu/), [OBS](https://obsproject.com/), [FFmpeg](https://www.ffmpeg.org/), and [QWinFF](https://qwinff.github.io/) for being awesome software resources.
+
+And of  e - shoutout to all my classmates, and my lab partner of two years; [Shrey
