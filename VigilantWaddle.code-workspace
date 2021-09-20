@@ -7,5 +7,19 @@
 			"path": "D:\\"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.autoComplete.extraPaths": [
+			"c:\\Users\\hheisig51\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.9\\boards\\0x239A\\0x8014",
+			"c:\\Users\\hheisig51\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.9\\stubs",
+			"c:\\Users\\hheisig51\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20210920\\adafruit-circuitpython-bundle-py-20210920\\lib"
+		],
+		"circuitpython.board.version": "6.3.0",
+		"python.analysis.extraPaths": [
+			null,
+			"c:\\Users\\hheisig51\\.vscode\\extensions\\joedevivo.vscode-circuitpython-0.1.9\\stubs",
+			"c:\\Users\\hheisig51\\AppData\\Roaming\\Code\\User\\globalStorage\\joedevivo.vscode-circuitpython\\bundle\\20210920\\adafruit-circuitpython-bundle-py-20210920\\lib"
+		],
+		"circuitpython.board.vid": "0x239A",
+		"circuitpython.board.pid": "0x8014"
+	}
 }
