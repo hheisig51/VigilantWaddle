@@ -59,8 +59,6 @@ For example, every time this loops, ```z``` gets 10 added to it, and then it che
 
 rial monitor printing.
 
-i hate benton
-
 ### Evidence
 | [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.1.21%20-%20Neopixel.py)  |
 | ---- |
