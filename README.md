@@ -93,6 +93,9 @@ Code goes here
 ```
 
 ### Evidence
+| [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.15.21%20-%20CircuitPython%20Servo.py)  |
+| ---- |
+| [Youtube playlist of videos](https://www.youtube.com/playlist?list=PLWQhE570pqHqSyWS2b8-lJPu_HJ_XI2gx)  |
 
 ### Wiring
 
