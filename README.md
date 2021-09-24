@@ -97,6 +97,13 @@ Code goes here
 | ---- |
 | [Youtube playlist of videos](https://www.youtube.com/playlist?list=PLWQhE570pqHqSyWS2b8-lJPu_HJ_XI2gx)  |
 
+
+https://user-images.githubusercontent.com/71345201/134691396-404dfc4b-370d-4e89-9533-c13554280411.mp4
+
+
+https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-b237-5a373c5ada7f.mp4
+
+
 ### Wiring
 
 ### Reflection
