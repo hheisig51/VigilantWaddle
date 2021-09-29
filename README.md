@@ -93,7 +93,7 @@ Code goes here
 ```
 
 ### Evidence
-| [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.15.21%20-%20CircuitPython%20Servo.py)  |
+| [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/6b992f8651e3bf654e8c98281999d74d3c7aee57/Code/9.15.21%20-%20CircuitPython_Servo.py?plain=1)  |
 | ---- |
 | [Youtube playlist of videos](https://www.youtube.com/playlist?list=PLWQhE570pqHqSyWS2b8-lJPu_HJ_XI2gx)  |
 
