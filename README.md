@@ -106,6 +106,8 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 ### Wiring
 
+!(CircuitPython_Servo.png)
+
 ### Reflection
 
 
