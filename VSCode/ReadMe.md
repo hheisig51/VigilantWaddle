@@ -36,4 +36,4 @@ Remember to check "Hidden items" in order to be able to see AppData!
 | Ctrl + Alt + [ | git commit |
 | Ctrl + Alt + ] | git push |
 | Ctrl + Alt + \ | git pull |
-| Ctrl + Alt + R | Open Serial Monitor |
+| Ctrl + Alt + R | Open Serial Monitor view list |
