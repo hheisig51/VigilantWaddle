@@ -21,3 +21,10 @@ Description: Serial Port Debug Tool
 Version: 0.0.12
 Publisher: Hancel.Lin
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=hancel.serialport-helper
+
+### Keyboard Shorcuts
+The file below is my keybindings.json
+
+The file location for where this file should go:
+![](https://github.com/hheisig51/VigilantWaddle/blob/ff8a1cb6a8c1c77e5227a2d5b09c0c3a520b7625/VSCode/FileForKeyboardShortcuts.png?raw=true)
+Make sure you check the Hidden Items box, so you can see AppData

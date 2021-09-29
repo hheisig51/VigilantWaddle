@@ -1,0 +1,46 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "-jupyter.gotoPrevCellInFile",
+        "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "-jupyter.gotoNextCellInFile",
+        "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+[",
+        "command": "git.commit"
+    },
+    {
+        "key": "ctrl+alt+]",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+alt+\\",
+        "command": "-jupyter.selectCellContents",
+        "when": "editorTextFocus && jupyter.hascodecells && !notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+alt+\\",
+        "command": "git.pull"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-circuitpython.openSerialMonitor"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.view.extension.serialport-view"
+    }
+]
