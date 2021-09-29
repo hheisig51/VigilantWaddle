@@ -60,7 +60,7 @@ For example, every time this loops, ```z``` gets 10 added to it, and then it che
 rial monitor printing.
 
 ### Evidence
-| [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/main/Code/9.1.21%20-%20Neopixel.py)  |
+| [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/54f87c2e407671d9991133bff1444b09ff88951b/Code/9.1.21%20-%20Hello_CircuitPython.py?plain=1)  |
 | ---- |
 | [Youtube playlist of videos](https://youtube.com/playlist?list=PLWQhE570pqHrpQAAHPEJapQYsuC3Ob_V9)  |
 
@@ -106,7 +106,7 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 ### Wiring
 
-![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/dda55f6f3386871652908e8a85e54a4cc989bfd4/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
+![CircuitPython_Servo Diagram](Diagrams\Renders\CircuitPython_Servo.png)
 
 ### Reflection
 
