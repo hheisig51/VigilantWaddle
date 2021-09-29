@@ -106,7 +106,7 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 ### Wiring
 
-![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/737225ae15fab4132b5da76ac255e177d2cec86b/Diagrams/Renders/CircuitPython_Servo.png)
+![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/dda55f6f3386871652908e8a85e54a4cc989bfd4/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
 
 ### Reflection
 
