@@ -1,10 +1,12 @@
 # Let's get this DistanceSensor party started
-print("code running!")
+import time
+import board
 import adafruit_hcsr04
-from adafruit_hcsr04 import HCSR04
-trig = 
-sonar = HCSR04(trig, echo)
-print("hello!")
+sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
 while True:
-        print(sonar.dist_cm())
-        sleep(.5)
+        try:
+                print((sonar.distance,))
+        except RuntimeError:
+                print("Retrying!")
+                pass
+        time.sleep(0.1)
