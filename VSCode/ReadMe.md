@@ -41,7 +41,9 @@ Publisher: reduckted
 
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=reduckted.vscode-gitweblinks
 
-### Keybindings
+<br>
+
+### **Keybindings**
 Below is my .json file I have my keybindings set up on
 
 [keybindings.json](https://github.com/hheisig51/VigilantWaddle/blob/20a3d56540727a5be1b4c4d0e97052868b421dee/VSCode/keybindings.json?plain=1)
