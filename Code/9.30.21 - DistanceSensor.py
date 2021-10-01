@@ -37,4 +37,4 @@ while True:
     except RuntimeError:
         print("Retrying!")
         pass
-    time.sleep(0.25)
+    time.sleep(0.1)
