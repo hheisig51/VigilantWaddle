@@ -6,7 +6,7 @@ import simpleio
 import adafruit_hcsr04
 
 sonar = adafruit_hcsr04.HCSR04(trigger_pin=board.D3, echo_pin=board.D2)
-x = 255
+x = 0
 y = 0
 z = 0
 
@@ -37,4 +37,4 @@ while True:
     except RuntimeError:
         print("Retrying!")
         pass
-    time.sleep(0.005)
+    time.sleep(0.25)
