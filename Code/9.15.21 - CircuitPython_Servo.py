@@ -17,11 +17,11 @@ tauch = touchio.TouchIn(board.A4)
 
 angle = 0
 while True:
-    if touch.value:
+    if touch.value: # detects if the wire has been touched
         print("Touched A0")
-        my_servo.angle = angle
-        if angle < 180:
-            angle = angle + 5
+        my_servo.angle = angle # sets the angle of the servo based off of what `angle` is
+        if angle < 180: # 180 is the max degree capable
+            angle = angle + 5 # adds 5 degrees if the value 
         if angle >= 180:
             angle = 180
         print(angle)

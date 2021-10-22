@@ -75,8 +75,6 @@ https://user-images.githubusercontent.com/71345201/133452459-4e8d6e7f-8229-4ffa-
 In this example, no wiring is needed. The neopixel on the Adafruit Arduino Metro was used.
 
 ### Reflection
-What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience?  Your ultimate goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person.
-
 This assignment, frankly, is the basis for learning more about CircuitPython. There's nothing to plug in except the board. The hardest part was actually figuring out the code to (very jankily) change the channels at different rates. Python is such an able language, that finding the exact resource you need is hard. Search engines (Ecosia, DuckDuckGo, Google, etc.) are all good tools to be able to peruse the web.
 
 Also, ASK! PEOPLE! QUESTIONS! If you don't, the person next to you is 10 steps ahead, cause they asked the person who's 11. If you manage to find something that nobody has documented 
@@ -86,10 +84,50 @@ And, as I steal this from somebody on the internet: Take care, adventurer.
 ## CircuitPython_Servo
   **Servo time! (with a *touch* of love)**
 ### Description & Code
+So, our objective today is to properly wire up a servo, and then use two wires, via touch, to control the servo.
+```python
+# Write your code here :-)
+import time
+import board
+import pwmio
+import servo
+import touchio
+```
 
 ```python
-Code goes here
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 
+# Create a servo object, my_servo.
+my_servo = servo.Servo(pwm)
+
+touch = touchio.TouchIn(board.A0)
+tauch = touchio.TouchIn(board.A4)
+```
+
+```python
+angle = 0
+while True:
+    if touch.value: 
+        print("Touched A0")
+        my_servo.angle = angle
+        if angle < 180:
+            angle = angle + 5
+        if angle >= 180:
+            angle = 180
+        print(angle)
+```
+
+```python
+    if tauch.value:
+        print("Tauched A4")
+        my_servo.angle = angle
+        if angle > 0:
+            angle = angle - 5
+        if angle <= 0:
+            angle = 0
+        print(angle)
+    time.sleep(0.05)
 ```
 
 ### Evidence

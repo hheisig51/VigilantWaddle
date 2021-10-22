@@ -53,7 +53,7 @@ Below is the file path you should go to in order to replace the file:
 Remember to check "Hidden items" in order to be able to see AppData!
 
 | Keybinding | Action |
-| --- | --- |
+| ---- | ---- |
 | Ctrl + Alt + [ | git commit |
 | Ctrl + Alt + ] | git push |
 | Ctrl + Alt + \ | git pull |
