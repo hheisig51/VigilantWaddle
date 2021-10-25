@@ -85,6 +85,8 @@ And, as I steal this from somebody on the internet: Take care, adventurer.
   **Servo time! (with a *touch* of love)**
 ### Description & Code
 So, our objective today is to properly wire up a servo, and then use two wires, via touch, to control the servo.
+
+First step: wire the board and servo as shown below. If you want to, you can change the analog pins around, just make sure you change it in the code also.
 ```python
 # Write your code here :-)
 import time
@@ -93,6 +95,11 @@ import pwmio
 import servo
 import touchio
 ```
+`import nomoreimports`.
+
+`pwmio`, `servo`, and `touchio` are new this go-around, so make sure you grab   `servo.mpy` and put it into your `lib` folder
+
+([Here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/) you can grab a CircuitPython Library shmorgishborg. In `/lib/adafruit_motor` you'll find servo.mpy)
 
 ```python
 # create a PWMOut object on Pin A2.
@@ -104,6 +111,9 @@ my_servo = servo.Servo(pwm)
 touch = touchio.TouchIn(board.A0)
 tauch = touchio.TouchIn(board.A4)
 ```
+- The `pwm =` sets up the actual frequency the board will output that (via the analog pins) to the servo.
+- `my_servo` makes sure we can actually send values to the servo, and have them be correct.
+- The `touch =` and `tauch =` setup the input from the two pin `A0` and `A4`
 
 ```python
 angle = 0
@@ -117,6 +127,13 @@ while True:
             angle = 180
         print(angle)
 ```
+- `angle = 0` resets the value before any loop starts, just to prevent errors.
+- `if touch.value:` carries out what's contained if something touches A0 (like we set it up above)
+- `my_servo.angle = angle` set's the actual servo angle based off of the value of `angle`
+- The next series of statements, everytime this runs;
+    - increase the angle by 5 degrees if it's less than 180
+    - if 180 or greater, keeps it at 180, to prevent any errors from sending too large of a number to the servo
+    - prints the value of `angle`, for serial monitor monitor-ing
 
 ```python
     if tauch.value:
@@ -129,6 +146,11 @@ while True:
         print(angle)
     time.sleep(0.05)
 ```
+- Very similar thing as description above, just for `A4` instead (see how it's `tauch` instead of `touch`?).
+- Just goes down by 5 degree increments to 0.
+- There's also the `time.sleep` function that calls at the end of the whole `while True:` loop.
+
+Also, [this Adafruit tutorial](https://learn.adafruit.com/circuitpython-essentials/circuitpython-cap-touch) gave the very essential building blocks for me to start the whole assignment.
 
 ### Evidence
 | [Code .py file](https://github.com/hheisig51/VigilantWaddle/blob/6b992f8651e3bf654e8c98281999d74d3c7aee57/Code/9.15.21%20-%20CircuitPython_Servo.py?plain=1)  |
@@ -147,9 +169,11 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 ![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/main/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
 
 ### Reflection
+The reflections are hard to write. I wish I was Narcissus, and could fall in love with them.
 
+Anyway, you've seen the assignment, now for the lesson; copying code. Like I linked adafruit above, and may link my classmates in the future, there's no need to invent the wheel twice. Steal, borrow, copy, take, link, anything. Just give credit where credit is due, and you'll be as golden as the [ram that flew Phrixus and Helle](https://en.wikipedia.org/wiki/Golden_Fleece).
 
-
+This assignment was simple as pumpkin pie, because the stuff I borrowed would've been the hardest had I written it myself.
 
 ## CircuitPython_LCD
 
