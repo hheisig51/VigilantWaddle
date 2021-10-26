@@ -212,6 +212,6 @@ Code goes here
 ## Special Thanks
 Thank you to [Mr. Helmstetter](https://github.com/Helmstk1) and [Mr. Dierolf](https://github.com/david-dierolf) at [Charlottesville High School](https://github.com/chssigma/) for being super helpful 
 
-Thank you to Github (do you really need a link?), [Mu](https://codewith.mu/), [OBS](https://obsproject.com/), [FFmpeg](https://www.ffmpeg.org/), and [QWinFF](https://qwinff.github.io/) for being awesome software resources.
+Thank you to [Github](https://github.com/) (do you really need a link?), [VSCode](https://code.visualstudio.com/) (Which I'm writing this from), [Mu](https://codewith.mu/), [OBS](https://obsproject.com/), [FFmpeg](https://www.ffmpeg.org/), and [QWinFF](https://qwinff.github.io/) for being awesome software resources.
 
 And of course - shoutout to all my classmates, and my lab partner of two years; [Shrey P.](https://github.com/shrey45)
