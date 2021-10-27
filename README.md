@@ -162,7 +162,7 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 ### Wiring
 
-![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/main/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
+[![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/e45afa00bcdbb9074f10cc1c40b398080469e11f/Diagrams/Renders/CircuitPython_Servo.png?raw=true)](https://github.com/hheisig51/VigilantWaddle/blob/e45afa00bcdbb9074f10cc1c40b398080469e11f/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
 
 | Wire color | Pin on board | Purpose          |
 | ---------- | ------------ | ---------------- |
