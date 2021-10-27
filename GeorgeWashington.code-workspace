@@ -1,14 +1,10 @@
 {
 	"folders": [
 		{
+			"path": "../AsymmetricalHappiness"
+		},
+		{
 			"path": "."
-		},
-		{
-			"path": "D:\\"
-		},
-		{
-			"name": "AsymmetricalHappiness",
-			"path": "..\\AsymmetricalHappiness"
 		}
 	],
 	"settings": {
