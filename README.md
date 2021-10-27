@@ -164,12 +164,13 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 ![CircuitPython_Servo Diagram](https://github.com/hheisig51/VigilantWaddle/blob/main/Diagrams/Renders/CircuitPython_Servo.png?raw=true)
 
-| Wire color | Pin on board | Purpose         |
-| ---------- | ------------ | --------------- |
-| Red        | `5V`         | Power on Servo  |
-| Black      | `GND`        | Ground on Servo |
-| Yellow     | `A2`         | Signal on Servo |
-| Blue       | `A
+| Wire color | Pin on board | Purpose          |
+| ---------- | ------------ | ---------------- |
+| Red        | `5V`         | Power on Servo   |
+| Black      | `GND`        | Ground on Servo  |
+| Yellow     | `A2`         | Signal on Servo  |
+| Blue       | `A0`         | Capacitive Touch |
+| Grey       | `A4`         | Capacitive Touch |
 
 ### Reflection
 
