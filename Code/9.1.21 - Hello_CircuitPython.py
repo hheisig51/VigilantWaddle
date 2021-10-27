@@ -1,4 +1,4 @@
-# Written by Henry Heisig
+# Written by Henry Heisig, 09.01.21
 import board
 import neopixel
 import time

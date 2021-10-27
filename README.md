@@ -12,10 +12,10 @@
 
 ### Description & Code
 
-Hi there again! We're back, and we're better than ever. In this, I've made a LED on an Arduino (via Python) fade & flash in a rainbow-ish pattern.
+Hello! In this, an LED on an Arduino (via Python) fades & flashes in a rainbow-ish pattern.
 
 ```python
-# Written by Henry Heisig
+# Written by Henry Heisig, 09.01.21
 import board
 import neopixel
 import time
@@ -28,7 +28,13 @@ dot = neopixel.NeoPixel(board.NEOPIXEL, 1)
 dot.brightness = .1
 ```
 
-The LED color is set to be those variables we set up above, and then move to doing the math on making them change at different rates.
+The variables set up will correspond to the different RGB channels on the LED. The brightness of the LED is also lowered
+
+| Variable | Color Channel |
+| -------- | ------------- |
+| X        | **R** ed      |
+| Y        | **G** reen    |
+| Z        | **B** lue     |
 
 ```python
 while True:
@@ -83,10 +89,10 @@ s because they asked the person who's ahead by 11. If you manage to find somethi
 
 So, our objective today is to properly wire up a servo, and then use two wires, via touch, to control the servo.
 
-First step: wire the board and servo as shown below. If you want to, you can change the analog pins around, just make sure you change it in the code also.
+First step: wire the board and servo as [shown below](#wiring-1). If you want to, you can change the analog pins around, just make sure you change it in the code also.
 
 ```python
-# Write your code here :-)
+# Written by Henry Heisig, 09.15.21
 import time
 import board
 import pwmio
@@ -99,10 +105,8 @@ import touchio
 ([Here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/) you can grab a CircuitPython Library package. In `/lib/adafruit_motor` you'll find servo.mpy)
 
 ```python
-# create a PWMOut object on Pin A2.
 pwm = pwmio.PWMOut(board.A2, duty_cycle=2 ** 15, frequency=50)
 
-# Create a servo object, my_servo.
 my_servo = servo.Servo(pwm)
 
 touch = touchio.TouchIn(board.A0)
@@ -111,7 +115,7 @@ tauch = touchio.TouchIn(board.A4)
 
 - The `pwm =` sets up the actual frequency the board will output that (via the analog pins) to the servo.
 - `my_servo` makes sure we can actually send values to the servo, and have them be correct.
-- The `touch =` and `tauch =` setup the input from the two pin `A0` and `A4`
+- The `touch =` and `tauch =` setup the input from the two pin `A0` and `A4`.
 
 ```python
 angle = 0
@@ -127,12 +131,12 @@ while True:
 ```
 
 - `angle = 0` resets the value before any loop starts, just to prevent errors.
-- `if touch.value:` carries out what's contained if something touches A0 (like we set it up above)
-- `my_servo.angle = angle` set's the actual servo angle based off of the value of `angle`
+- `if touch.value:` carries out what's contained if something touches A0 (like it was set up above).
+- `my_servo.angle = angle` set's the actual servo angle based off of the value of `angle`.
 - The next series of statements, everytime this runs;
-  - increase the angle by 5 degrees if it's less than 180
-  - if 180 or greater, keeps it at 180, to prevent any errors from sending too large of a number to the servo
-  - prints the value of `angle`, for serial monitor monitor-ing
+  - increase the angle by 5 degrees if it's less than 180.
+  - if 180 or greater, keeps it at 180, to prevent any errors from sending too large of a number to the servo.
+  - prints the value of `angle`, for use with the serial monitor.
 
 ```python
     if tauch.value:
@@ -178,10 +182,12 @@ https://user-images.githubusercontent.com/71345201/134691403-e6190f6b-589d-4bf4-
 
 As the adafruit was linked above, and as classmates may be linked in the future, there's no need to invent the wheel twice. Steal, borrow, copy, take, link, anything. Give credit where credit is due, and all is well.
 
+Also, writing out the math can help in making it work code wise. Similar to the domain, range, and intervals in a **function**.
+
 ## Special Thanks
 
-Thank you to [Mr. Helmstetter](https://github.com/Helmstk1) and [Mr. Dierolf](https://github.com/david-dierolf) at [Charlottesville High School](https://github.com/chssigma/) for being super helpful
+Thank you to [Mr. Helmstetter](https://github.com/Helmstk1) and [Mr. Dierolf](https://github.com/david-dierolf) at [Charlottesville High School](https://github.com/chssigma/) for being very helpful
 
-Thank you to [Github](https://github.com/) (do you really need a link?), [VSCode](https://code.visualstudio.com/) (Which I'm writing this from), [Mu](https://codewith.mu/), [OBS](https://obsproject.com/), [FFmpeg](https://www.ffmpeg.org/), and [QWinFF](https://qwinff.github.io/) for being awesome software resources.
+Thank you to [Github](https://github.com/), [VSCode](https://code.visualstudio.com/), [Mu](https://codewith.mu/), [OBS](https://obsproject.com/), [FFmpeg](https://www.ffmpeg.org/), and [QWinFF](https://qwinff.github.io/) for being good software resources.
 
 And of course - shoutout to all my classmates, and my lab partner of two years; [Shrey P.](https://github.com/shrey45)

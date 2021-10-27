@@ -1,5 +1,4 @@
-# Write your code here :-)
-"""CircuitPython Essentials Servo standard servo example"""
+# Written by Henry Heisig, 09.15.21
 import time
 import board
 import pwmio
